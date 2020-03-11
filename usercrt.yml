@@ -1,0 +1,11 @@
+---
+- name: Creating user
+  hosts: all
+  tasks:
+    - name: Creating user
+      user:
+        name: nayak
+        password: nayak
+        uid: 7804
+        comment: DevopsEngg
+...
